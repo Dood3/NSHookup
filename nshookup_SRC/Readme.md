@@ -1,3 +1,4 @@
+## DNS-Server.cs ##
 - Install-Package ARSoft.Tools.Net (NuGet)
 - Execute: "powershell . (nslookup -q=txt example.com 127.0.0.1)[-1]"
   The locahohost IP has to be given to differentiate between the "real" domain and the locally running one.
@@ -13,3 +14,11 @@ https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tab
   <code>
   dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishReadyToRun=true -p:PublishTrimmed=true -p:IncludeNativeLibrariesForSelfExtract=true -p:PublishDir=.\publish --force
   </code>
+
+## nshookup.py (needs dnspython) ##
+Python implemetation of nslookup. Only works with one TXT entry.
+Gets the entry and executes the content between the two "" as command.
+Command: python nshookup.py domain.com
+
+Version two with hardcoded domain:
+Command: python nshookup.py
