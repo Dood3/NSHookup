@@ -45,7 +45,9 @@ class Program
     }
 }
 
+//================================================================================================================
 
+// Version with multiple TXT entries
 using System;
 using System.Threading.Tasks;
 using ARSoft.Tools.Net;
