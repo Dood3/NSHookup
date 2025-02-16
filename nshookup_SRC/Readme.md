@@ -3,6 +3,12 @@
 - Execute: "powershell . (nslookup -q=txt example.com 127.0.0.1)[-1]"\
   The locahohost IP has to be given to differentiate between the "real" domain and the locally running one.
 
+  - DNS-Server.cs:\
+    Simply a rogue DNS-Server
+
+  - DNS-Server_1.cs:\
+    Rogue DNS-Server with multiple TXT entries
+
 -- Build an executable from the Developer Console within Visual studio
 
 https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli
