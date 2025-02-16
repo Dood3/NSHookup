@@ -16,14 +16,19 @@ https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tab
   </code>
 
 ## nshookup.py (needs dnspython) ##
-Python implemetation of nslookup. Only works with one TXT entry.
-Gets the entry and executes the content between the two "" as command.
-Command: python nshookup.py domain.com
+- nshookup.py:\
+  Python implemetation of nslookup. Only works with one TXT entry.
+  Gets the entry and executes the content between the two "" as command.
+  Command: python nshookup.py domain.com
 
-Version two with hardcoded domain:
-Command: python nshookup.py
+- nshookup_1.py:\
+  Hardcoded domain:
+  Command: python nshookup.py
 
 ## pivoting.cs ##
-- pivoting_1.cs: No checks, just go for it
-- pivoting_2.cs: Checks if at least a part of a certain string is present before executing the first step
-- pivoting_3.cs: Defines the string as mandatory to execute the first step
+- pivoting_1.cs:\
+  No checks, just go for it
+- pivoting_2.cs:\
+  Checks if at least a part of a certain string is present before executing the first step
+- pivoting_3.cs:\
+  Defines the string as mandatory to execute the first step
