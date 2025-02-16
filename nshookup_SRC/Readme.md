@@ -4,7 +4,7 @@
   The locahohost IP has to be given to differentiate between the "real" domain and the locally running one.
 
   - DNS-Server.cs:\
-    Simply a rogue DNS-Server
+    Simply a rogue DNS-Server with one TXT entry, being "systeminfo"
 
   - DNS-Server_1.cs:\
     Rogue DNS-Server with multiple TXT entries
