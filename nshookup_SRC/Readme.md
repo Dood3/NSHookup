@@ -24,12 +24,12 @@ https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tab
 ## nshookup.py (needs dnspython) ##
 - nshookup.py:\
   Python implemetation of nslookup. Only works with one TXT entry.
-  Gets the entry and executes the content between the two "" as command.
-  Command: python nshookup.py domain.com
+  Gets the entry and executes the content between the two "" as command.\
+  Command: *python nshookup.py domain.com*
 
 - nshookup_1.py:\
-  Hardcoded domain:
-  Command: python nshookup.py
+  Hardcoded domain:\
+  Command: *python nshookup.py*
 
 ## pivoting.cs ##
 - pivoting_1.cs:\
