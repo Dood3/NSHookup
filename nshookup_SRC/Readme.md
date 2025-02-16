@@ -22,3 +22,8 @@ Command: python nshookup.py domain.com
 
 Version two with hardcoded domain:
 Command: python nshookup.py
+
+## pivoting.cs ##
+- pivoting_1.cs: No checks, just go for it
+- pivoting_2.cs: Checks if at least a part of a certain string is present before executing the first step
+- pivoting_3.cs: Defines the string as mandatory to execute the first step
