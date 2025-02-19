@@ -12,4 +12,3 @@ for cmdval in result:
   result = text.split('"')[1].split('"')[0]
 
 os.system(result)
-Version two with hardcoded domain:
