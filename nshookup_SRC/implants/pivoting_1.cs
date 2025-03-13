@@ -1,3 +1,4 @@
+// No checks, just go for it
 using System.Diagnostics;
 
 class Program
