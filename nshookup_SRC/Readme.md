@@ -7,7 +7,7 @@
     Simply a rogue DNS-Server with one TXT entry, being "systeminfo"
 
   - DNS-Server_1.cs:\
-    Rogue DNS-Server with multiple TXT entries
+    Rogue DNS-Server with multiple TXT entries and a higher port
 
 -- Build an executable from the Developer Console within Visual studio
 
