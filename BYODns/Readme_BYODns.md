@@ -1,6 +1,6 @@
-*- BYODns (bring your own dns)*
+## BYODns (bring your own dns)
 
-__The network consists of: __
+__The network consists of:__
 1. DNS server (example.com) - 192.168.1.100
 2. Client A - 192.168.1.10
 3. Client B - 192.168.1.20
