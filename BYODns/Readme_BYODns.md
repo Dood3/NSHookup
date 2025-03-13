@@ -14,7 +14,7 @@ Client A & Client B execute "nslookup -q=txt example.com" which returns the TXT 
 
 
 -> VARIANT b):
-Client A has a local DNS server running (see [DNS-Server.cs)](https://github.com/Dood3/NSHookup/blob/main/nshookup_SRC/DNS-Server.cs). Due to using a high port "5353", no administrative rights are needed (still asks for firewall permissions).
+Client A has a local DNS server running (see [DNS-Server_1.cs)](https://github.com/Dood3/NSHookup/blob/main/nshookup_SRC/DNS-Server_1.cs). Due to using a high port "5353", no administrative rights are needed (still asks for firewall permissions).
 Client B makes an according request including the IP pointing to the locally hosted DNS server: *"nslookup -q=txt example.com 192.168.1.10"*
 
 ![variant_b](https://github.com/user-attachments/assets/9d1a6142-9a11-4359-aa52-d4a4b5a97130)
