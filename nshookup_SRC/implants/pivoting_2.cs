@@ -1,3 +1,4 @@
+// Checks if at least a part of a certain string is present before executing the first step
 using System.Diagnostics;
 class Program
 {
