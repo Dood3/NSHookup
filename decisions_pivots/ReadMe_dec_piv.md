@@ -88,7 +88,7 @@ Execute the fall back command in an else-statement and exit:
 The fall-back domain has the following TXT entry:  
 ``` echo 'Nothing here to see or gain. Better luck next time' > nothing_here.txt ```
 
-Full code here in (C#): [Implants](https://github.com/Dood3/NSHookup/tree/main/nshookup_SRC/implants)
+Full code here (C#): [Implants](https://github.com/Dood3/NSHookup/tree/main/nshookup_SRC/implants)
 
 ## **2. Decision making - Pivoting (multi-hop)**
 
