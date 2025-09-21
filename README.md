@@ -1,4 +1,5 @@
 # NSHookup
+Use TXT entries in domains for more than just information
 
 1. [Basics](https://github.com/Dood3/NSHookup/blob/main/Basics/Readme_Basics.md)
 2. [Bring your own DNS (BYODns)](https://github.com/Dood3/NSHookup/blob/main/BYODns/Readme_BYODns.md)
