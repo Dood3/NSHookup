@@ -8,7 +8,6 @@ DNS Server TXT entry:<br>
 
 The outcome is `powershell ping google.com` being executed in the current session on the clients system.
 
-![GRAPHIC_1 1](https://github.com/Dood3/PoCs/assets/93183445/d550b7d7-db51-42da-9834-b89f5c792bfb)
 <img width="1267" height="394" alt="Graphic_1 1" src="https://github.com/user-attachments/assets/621c5d24-6e7e-4f2c-9a32-16f99e1cac27" />
 
 
