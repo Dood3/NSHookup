@@ -22,7 +22,7 @@ DNS Server TXT entry:<br>
 The file hosting the payload is not bound to any file formats. A simple file without suffix will work. 
 This request will probably trigger AV (AMSI). If "IEX" doesn't get caught, the delivered payload itself most likely will.*<br>
 
-![GRAPHIC_2 1](https://github.com/Dood3/PoCs/assets/93183445/3954f3ed-4196-497e-a369-14a5d71355d9)
+<img width="1012" height="526" alt="Graphic_2 1" src="https://github.com/user-attachments/assets/92a8441e-d055-47dd-bd4c-82e895be7533" />
 
 
 
@@ -42,7 +42,7 @@ This will most likely trigger AV (AMSI).<br>
 3. `Command gets delivered to Client (over dns)`<br>
 4. `Reverse shell phoning home`<br>
 
-![GRAPHIC_3 1](https://github.com/Dood3/PoCs/assets/93183445/c8fe7f80-361c-4ccc-9249-8c345ce14351)
+<img width="1012" height="538" alt="Graphic_3 1" src="https://github.com/user-attachments/assets/2bedb922-a9f8-43b9-a3ff-24cf21eb199f" />
 
 <br><br><br><br><br><br><br>
 
